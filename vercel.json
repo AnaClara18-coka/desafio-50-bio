@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/progress",
+      "destination": "https://pilates-em-casa-jornada-ejq3.vercel.app/"
+    },
+    {
+      "source": "/progress/",
+      "destination": "https://pilates-em-casa-jornada-ejq3.vercel.app/"
+    },
+    {
+      "source": "/progress/assets/movimentos/:path*",
+      "destination": "https://pilates-em-casa-jornada-ejq3.vercel.app/assets/movimentos/:path*"
+    },
+    {
+      "source": "/assets/movimentos/:path*",
+      "destination": "https://pilates-em-casa-jornada-ejq3.vercel.app/assets/movimentos/:path*"
+    }
+  ]
+}
